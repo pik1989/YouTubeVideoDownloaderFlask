@@ -2,7 +2,7 @@
 
 🔴 Follow this video for the code walkthrough:
 
-🔴 Download the code from here: https://www.youtube.com/watch?v=twp6zQ_MBiY
+🔴 Download the code from here: https://github.com/pik1989/YouTubeVideoDownloaderFlask
 
-[![Alt text](https://raw.githubusercontent.com/pik1989/EDA_CreditCardAnalysis/main/images/File.JPG)](https://www.youtube.com/watch?v=TomrEJdULxo)
+[![Alt text](https://raw.githubusercontent.com/pik1989/YouTubeVideoDownloaderFlask/main/static/GitHub-Image.png)](https://www.youtube.com/watch?v=twp6zQ_MBiY)
 
