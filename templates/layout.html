@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>YouTube Downloader</title>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <style>
+        body{
+        background-image: url({{ url_for('static', filename='image.JPG') }});
+height: 100vh;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+}
+        .container {
+            margin-top: 2em;
+        }
+
+        .row {
+            margin-top: 1em;
+            margin-bottom: 1em;
+        }
+    </style>
+    {% block head %}
+    {% endblock %}
+</head>
+<body >
+    <div class="container">
+        {% block body %}
+        {% endblock %}
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <script>
+        $(document).ready(
+            function () {
+                M.AutoInit();
+            }
+        );
+    </script>
+</body>
+
+</html>

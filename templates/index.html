@@ -1,0 +1,38 @@
+{% extends "layout.html" %}
+
+{% block head %}
+{% endblock %}
+
+{% block body %}
+<div class="row">
+    <div class="col s12 center-align">
+        <h4>Download & Save your YouTube Videos!</h4>
+    </div>
+</div>
+<br><br>
+<div class="divider"></div>
+<br><br>
+<div class="row">
+    <form class="col s12 center-align" action="/" method="post">
+        <div class="row">
+            <div class="input-field col s8 offset-s2">
+                <i class="material-icons prefix">link</i>
+                <input id="url" type="text" name="URL" class="validate">
+                <label for="url">Enter Video URL here</label>
+            </div>
+        </div>
+        <div class="row">
+            <div class="input-field col s12">
+                <form method ="post" action="/">
+  <button class="btn waves-effect waves-light btn-large pink accent-2" type="submit" name="submit_video" value="submit_video">
+                    For Video
+                </button>
+  <button class="btn waves-effect waves-light btn-large pink accent-2" type="submit" name="submit_audio" value="submit_audio">
+                    For Audio
+                </button>
+</form> 
+                            </div>
+        </div>
+    </form>
+</div>
+{% endblock %}
